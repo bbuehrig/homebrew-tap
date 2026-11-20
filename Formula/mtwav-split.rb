@@ -11,22 +11,22 @@ class MtwavSplit < Formula
   on_macos do
     on_arm do
       url "https://github.com/bbuehrig/multitrack-wav-splitter/releases/download/v0.2.1/mtwav-split_darwin_arm64"
-      sha256 "cf9742f9530feb738c0fba20537b5a22130d31ffe0e5897fa16ee979b4d8119f"
+      sha256 "49cc143a36cd8f63778afd3f946499f8ef2f7be01e8703e36baf1b19c21b4e4b"
     end
     on_intel do
       url "https://github.com/bbuehrig/multitrack-wav-splitter/releases/download/v0.2.1/mtwav-split_darwin_amd64"
-      sha256 "eb0d027d651f741bddd5db55fe7178126365ab1017d02978a66434b78fbfa699"
+      sha256 "815761afd6ecf9ee1f72b22127539cd995966ce88d2ad9aa218a0f337a1428d7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bbuehrig/multitrack-wav-splitter/releases/download/v0.2.1/mtwav-split_linux_arm64"
-      sha256 "5cee03fce10c3c6671715ff0a15cc73ef93f4f847e0351210c788beae07341bc"
+      sha256 "f7bfea71b1e87c1845bc0866e10879d94b187d2de45b3ccdfac5a2d31ccc9c8b"
     end
     on_intel do
       url "https://github.com/bbuehrig/multitrack-wav-splitter/releases/download/v0.2.1/mtwav-split_linux_amd64"
-      sha256 "4907becba5e5e30750c210a3a17bca382608c95defe4292272c46116bf62a76a"
+      sha256 "3b26dafd1dad6ada13c626e058b51ab68997f7e6fb3cda6c2c2f9af5595fc16b"
     end
   end
 
